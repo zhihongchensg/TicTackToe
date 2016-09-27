@@ -1,0 +1,38 @@
+p {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: inherit;
+  text-align: center;
+}
+
+/*clear right doesnt work*/
+.container{
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  clear: right;
+  border: 2px solid red;
+  /*background-color: yellow;*/
+  /*color: green;*/
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.box{
+  box-sizing: border-box;
+  width: 33.33%;
+  height: 100px;
+  float: left;
+  clear: right;
+  border: 1px solid blue
+}
